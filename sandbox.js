@@ -30,3 +30,12 @@ function previous(){
     }
     
 }
+let nav = document.querySelector(".nav-icon");
+let body = document.querySelector("#nav-bar");
+
+nav.addEventListener("click",function(){
+    document.querySelector("#nav-bar").style.display = "flex";
+})
+body.addEventListener("click",function(){
+    document.querySelector("#nav-bar").style.display = "none";
+})
